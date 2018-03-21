@@ -57,7 +57,7 @@ def over?(board)
 end
 
 def winner(board)
-  winner_index = won?(board)[0]
+  winner_index = won?(board)
   win_position_1 = winner_index[0]
   win_position_2 = winner_index[1]
   win_position_3 = winner_index[2]
