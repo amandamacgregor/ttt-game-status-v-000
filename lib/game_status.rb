@@ -61,7 +61,7 @@ def winner(board)
   win_position_1 = winner_index[0]
   win_position_2 = winner_index[1]
   win_position_3 = winner_index[2]
-    
+    binding.pry
   if (win_position_1 == "X" || win_position_2 == "X" || win_position_3 == "X")
     return "X"
   else if (win_position_1 == "O" || win_position_2 == "O" || win_position_3 == "O")
