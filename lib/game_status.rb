@@ -58,8 +58,7 @@ end
 
 def winner(board)
   winner_index = won?(board)[0]
-  if board[winner_index] = "X"
-    return "X"
-else
-  "O"
+  if winner_index
+    board[winner_index]
+  end
 end
