@@ -59,6 +59,6 @@ end
 def winner(board)
   winner_index = won?(board)
   if winner_index
-    board[winner_index]
+    board[winner_index[0]]
   end
 end
